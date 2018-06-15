@@ -49,7 +49,7 @@
             <mvc:exclude-mapping path="/statics/**"/>
             <mvc:exclude-mapping path="/**/**.html"/>
             <mvc:exclude-mapping path="/**/**.js"/>
-            <bean class="com.platform.interceptor.LogInterceptor"/>
+            <bean class="com.platform.interceptor.ActionReporter"/>
         </mvc:interceptor>
     </mvc:interceptors>
 
